@@ -32,7 +32,7 @@ function translate(text, opts) {
     return token.get(text).then(function (token) {
         var url = 'https://translate.google.cn/translate_a/single';
         var data = {
-            client: 'gtx',
+            client: 't',
             sl: opts.from,
             tl: opts.to,
             hl: opts.to,
@@ -40,8 +40,8 @@ function translate(text, opts) {
             ie: 'UTF-8',
             oe: 'UTF-8',
             otf: 1,
-            ssel: 0,
-            tsel: 0,
+            ssel: 3,
+            tsel: 3,
             kc: 7,
             q: text
         };
