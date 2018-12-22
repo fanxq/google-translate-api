@@ -34,16 +34,19 @@
     "configstore": "^2.0.0",
     "google-translate-token": "git+https://github.com/fanxq/google-translate-token.git",
     "got": "^6.3.0",
-    "safe-eval": "^0.3.0"
+    "safe-eval": "^0.4.0"
   },
   "devDependencies": {
     "ava": "^0.15.2",
     "codecov": "^1.0.1",
-    "coveralls": "^2.11.11",
-    "nyc": "^7.0.0",
+    "coveralls": "^3.0.2",
+    "nyc": "^13.1.0",
     "xo": "^0.16.0"
   },
   "xo": {
-    "space": 4
+    "space": 4,
+    "rules": {
+      "linebreak-style": [0,"windows"]
+    }
   }
 }
