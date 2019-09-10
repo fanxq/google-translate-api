@@ -32,7 +32,7 @@
   "homepage": "https://github.com/matheuss/google-translate-api#readme",
   "dependencies": {
     "configstore": "^2.0.0",
-    "google-translate-token": "git+https://github.com/fanxq/google-translate-token.git",
+    "google-translate-token": "git+https://github.com/fanxq/google-translate-token.git#6da49545ea9a4ad5c9bdd1331a8658aa35685dfd",
     "got": "^6.3.0",
     "safe-eval": "^0.4.0"
   },
@@ -46,7 +46,10 @@
   "xo": {
     "space": 4,
     "rules": {
-      "linebreak-style": [0,"windows"]
+      "linebreak-style": [
+        0,
+        "windows"
+      ]
     }
   }
 }
